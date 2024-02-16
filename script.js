@@ -6,7 +6,7 @@ let sum = 0;
 const divide = (arr, n) => {
   // Write your code here
 	arr.forEach(num => {
-		if(sum + num <= num){
+		if(sum + num <= n){
 			subArray.push(num);
 			sum += num;
 			
@@ -20,7 +20,7 @@ const divide = (arr, n) => {
 	})
 };
 if (subArrayrray.length > 0) {
-        result.push(subArrayrray);
+        result.push(subArray);
     }
 
     return result;
