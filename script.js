@@ -18,7 +18,7 @@ const divide = (arr, n) => {
 			sum = num;
 		}
 	})
-};
+;
 if (subArrayrray.length > 0) {
         result.push(subArray);
     }
